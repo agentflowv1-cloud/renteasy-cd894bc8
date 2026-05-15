@@ -1,30 +1,25 @@
 {
-  "name": "renteasy-cd894bc8",
+  "name": "user-friendly-design",
   "version": "1.0.0",
-  "type": "module",
+  "description": "",
+  "main": "src/main.tsx",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext .ts,.tsx",
-    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "react-router-dom": "^6.23.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.0",
+    "zustand": "^4.1.5",
+    "framer-motion": "^7.5.1",
+    "lucide-react": "^0.3.3",
+    "axios": "^1.1.2"
   },
   "devDependencies": {
-    "@types/react": "^18.3.0",
-    "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "@typescript-eslint/parser": "^7.0.0",
-    "@vitejs/plugin-react": "^4.3.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.3.0",
-    "typescript": "^5.5.0",
-    "vite": "^5.3.0"
+    "typescript": "^4.7.4",
+    "vite": "^3.2.3",
+    "vitest": "^0.23.1"
   }
 }
